@@ -142,11 +142,15 @@ PS C:\Users\acer\Documents\KULIAH\PEMROGRAMAN\Pratikum 3>
 ````
 # Cara Kerja Program 
 *Meminta Input Angka Pertama dan Kedua*:
-   - Program dimulai dengan meminta pengguna memasukkan dua angka. Keduanya diambil sebagai input dari pengguna dan dikonversi menjadi tipe float agar bisa menangani angka desimal.Contohnya angka pertama 75 , angka kedua 30 
+   - Program dimulai dengan meminta pengguna memasukkan dua angka. Keduanya diambil sebagai input dari pengguna dan dikonversi menjadi tipe float agar bisa menangani angka desimal.Contohnya angka pertama 75 , angka kedua 30
+     
 *Meminta Pengguna Memilih Operator Aritmatika*:
    - Program kemudian menampilkan pilihan operator aritmatika yang tersedia, yaitu penjumlahan (+), pengurangan (-), perkalian (*), dan pembagian (/).Pengguna diminta memilih salah satu dari operator tersebut dan memasukkannya sebagai input, misalnya, dengan mengetik + untuk penjumlahan.Contoh memilih di -
-*Hasil operasi dan langsung ditampilkan*.(dan menampilkan hasil 45.0.
-Program menanyakan apakah pengguna ingin melakukan perhitungan lagi.
+     
+*Hasil operasi dan langsung ditampilkan*.
+menampilkan hasil 45.0.Lalu 
+
+*Program menanyakan apakah pengguna ingin melakukan perhitungan lagi*.
 Jika pengguna memilih 'y', proses dimulai lagi; jika 'n', program berhenti.
 
 *Terimakasih*
