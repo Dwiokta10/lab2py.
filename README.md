@@ -79,10 +79,15 @@ Flowchart ini menunjukkan bahwa hanya pengguna dengan status member yang mendapa
 Program ini merupakan kalkulator sederhana yang membantu pengguna melakukan operasi matematika dasar antara dua angka, yaitu penjumlahan, pengurangan, perkalian, dan pembagian. 
 
 # Deskripsi Program
-Program ini dibuat menggunakan bahasa python dengan fitur:
-1. Input Angka
-2. Memilih Operator pilihan operasi (+, -, *, /)
-3. Proses Operasi Aritmatika if, elif, dan else
+Program ini dibuat menggunakan bahasa python dengan fitur :
+Memungkinkan pengguna untuk memasukkan dua angka.
+Mendukung empat operasi aritmatika:
+Penjumlahan (+)
+Pengurangan (-)
+Perkalian (*)
+Pembagian (/)
+Menangani pembagian dengan nol dengan pesan kesalahan yang sesuai.
+Menawarkan opsi untuk melakukan perhitungan baru setelah hasil ditampilkan.
 
 # Flowchart Program
 ![Flowchart](https://github.com/Dwiokta10/lab2py./blob/main/flowchart2kalkulator..png)
@@ -137,10 +142,12 @@ PS C:\Users\acer\Documents\KULIAH\PEMROGRAMAN\Pratikum 3>
 ````
 # Cara Kerja Program 
 *Meminta Input Angka Pertama dan Kedua*:
-   - Program dimulai dengan meminta pengguna memasukkan dua angka. Keduanya diambil sebagai input dari pengguna dan dikonversi menjadi tipe float agar bisa menangani angka desimal.
+   - Program dimulai dengan meminta pengguna memasukkan dua angka. Keduanya diambil sebagai input dari pengguna dan dikonversi menjadi tipe float agar bisa menangani angka desimal.Contohnya angka pertama 75 , angka kedua 30 
 *Meminta Pengguna Memilih Operator Aritmatika*:
-   - Program kemudian menampilkan pilihan operator aritmatika yang tersedia, yaitu penjumlahan (+), pengurangan (-), perkalian (*), dan pembagian (/).Pengguna diminta memilih salah satu dari operator tersebut dan memasukkannya sebagai input, misalnya, dengan mengetik + untuk penjumlahan.
-*Mengidentifikasi Operator yang Dipilih*:
-   - Program menggunakan conditional statement (if, elif, dan else) untuk memeriksa operator yang dipilih pengguna:
-*Hasil operasi dan langsung ditampilkan*.
+   - Program kemudian menampilkan pilihan operator aritmatika yang tersedia, yaitu penjumlahan (+), pengurangan (-), perkalian (*), dan pembagian (/).Pengguna diminta memilih salah satu dari operator tersebut dan memasukkannya sebagai input, misalnya, dengan mengetik + untuk penjumlahan.Contoh memilih di -
+*Hasil operasi dan langsung ditampilkan*.(dan menampilkan hasil 45.0.
+Program menanyakan apakah pengguna ingin melakukan perhitungan lagi.
+Jika pengguna memilih 'y', proses dimulai lagi; jika 'n', program berhenti.
+
+*Terimakasih*
 
